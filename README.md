@@ -1,8 +1,27 @@
-# React + Vite
+# Product Management Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-Redux application that displays a list of products with the functionality to update the quantity and remove products. The application also displays the total price of the products in the list, dynamically updating as the quantities change.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Display a list of products with detailed information.
+- Update product quantity.
+- Remove a product from the list.
+- Dynamic calculation of the total price.
+- Carousel for displaying product images using Bootstrap.
+
+## Technologies Used
+
+- React
+- Redux
+- Redux Toolkit
+- Bootstrap
+Usage
+Adding Products
+Modify the initialState in ReduxSlice.js.
+
+Updating Quantity
+Use + and - buttons to change quantity. The total price updates accordingly.
+
+Removing Products
+Click the Delete button to remove a product.
